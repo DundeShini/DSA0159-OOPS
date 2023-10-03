@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"enter the a value:";
+	cin>>a;
+	cout<<"enter the b value:";
+	cin>>b;
+	cout<<"enter the c value:";
+	cin>>c;
+	if(a>b && a>c)
+	{
+		cout<<"a is largest number";
+	}
+	else if(b>a && b>c)
+	{
+		cout<<"b is largest number:";
+	}
+	else
+	{
+		cout<<"c is largest number:";
+	}
+ return 0;
+}
+
+output:
+enter the a value:4
+enter the b value:2
+enter the c value:1
+a is largest number
