@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"shini\n";
+	cout<<"192111292\n";
+	cout<<"CSE\n";
+	cout<<"machine learning\n";
+	return 0;
+}
+
+output:
+shini
+192111292
+CSE
+machine learning
