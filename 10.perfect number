@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n=28,i,div,sum=0;
+	cout<<"given number is:"<<n<<endl;
+	for(i=1;i<n;i++)
+	{
+		div=n%i;
+		if(div==0)
+		sum=sum+i;
+	}
+	if(sum==n)
+	{
+		cout<<n<< "is perfect number";
+	}
+	else
+	{
+		cout<<n<<"is not perfect number";
+	}
+	return 0;
+}
+
+output:
+given number is:28
+28is perfect number
